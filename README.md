@@ -1,7 +1,14 @@
-# CurrencyConverterChatBot
+# Currency Converter ChatBot
 
 ### Overview
 This project is a Chatbot built using Flask and Dialogflow, hosted on Render, and integrated with Telegram. The chatbot's primary function is to convert currency rates between different units and also engage in basic conversations with users. The project was developed for learning purposes and gaining hands-on experience in chatbot development and deployment.
+
+### How to Get Started
+1. **Access the Telegram Bot:** Login to Telegram and search using bot username **@KitaPaisaBanegaBot** or [click here](https://t.me/KitaPaisaBanegaBot) to open it directly in the web.
+2. **Web Demo Version:** You can also try the chatbot's web version by clicking [here](https://bot.dialogflow.com/981cc88b-7dcc-4f8c-a499-775c69ed9d36).
+3. Start a conversation.
+4. Send a currency conversion request (e.g., "Convert 10 USD to EUR").
+5. Receive real-time conversion rates.
 
 ### Features
 - Chatbot built using **Dialogflow** (Google's NLU platform).
