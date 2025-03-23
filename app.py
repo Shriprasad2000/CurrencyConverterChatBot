@@ -1,5 +1,5 @@
 # flask project
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template
 import requests 
 
 app = Flask(__name__)
@@ -9,7 +9,7 @@ def index():
 
     if request.method == 'GET':
         return jsonify({"message": "Welcome to Currency Converter API!"})
-     
+        #return render_template("testwebdemo.html")
     try:
         data = request.get_json()
 
